@@ -5,7 +5,7 @@ TARGET = llmod
 all: $(TARGET)
 
 $(TARGET): llmod.c
-	$(CC) $(CFLAGS) -o $(TARGET) lsmod.c
+	$(CC) $(CFLAGS) -o $(TARGET) llmod.c
 
 clean:
 	rm -f $(TARGET)
